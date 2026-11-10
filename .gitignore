@@ -1,0 +1,54 @@
+# Dependecies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Upload Files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# LOG
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# FRONTEND
+apps/web/dist/
+apps/web/.vite/
+apps/web/node_modules/
+
+# BACKEND
+backend/dist/
+backend/node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+.temp/
